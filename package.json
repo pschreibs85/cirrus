@@ -1,0 +1,25 @@
+{
+  "name": "cirrus_logic",
+  "version": "1.0.0",
+  "description": "cirrus logic challenge",
+  "main": "populate.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server/index.js --ignore node_modules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pschreibs85/cirrus.git"
+  },
+  "author": "Paul-Michael Schreiber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pschreibs85/cirrus/issues"
+  },
+  "homepage": "https://github.com/pschreibs85/cirrus#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "knex": "^0.12.6",
+    "nodemon": "^1.11.0",
+    "pg": "^6.1.0"
+  }
+}
